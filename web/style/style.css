@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nova Mono', monospace;
+    height: 100%;
+}
+
+.navigation {
+    background-color: lightgrey;
+    padding: 2px 5px 2px 5px;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 5px 2px 5px 2px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.navigation li.selected {
+    background-color: yellow;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.chat-outer {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.chat-header {
+    background-color: blue;
+    color: white;
+}
+.chat-history-outer {
+    overflow: scroll;
+}
+.chat-message-sender {
+    font-weight: bold;
+}
+.chat-message-them {
+    color: red;
+}
+.chat-message-self {
+    color: blue;
+}
+
+.chat-message-picker {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #cccccc;
+    height: 200px;
+}
+
+.chat-message-option-list {
+    border-top: 2px solid black;
+}
+
+.chat-message-option {
+    width: 100%;
+    padding: 5px;
+
+}
